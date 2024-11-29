@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Jeux Vidéo avec les Trophées/Succès les Plus Durs</title>
+  <link rel="stylesheet" href="../dossier_1/style.css">
+</head>
+<body>
+  <header>
+    <h1>Les Jeux Vidéo avec les Trophées/Succès les Plus Durs</h1>
+    <nav>
+      <ul>
+        <li><a href="#games-list">Jeux</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="filter">
+      <label for="category">Filtrer par catégorie:</label>
+      <select id="category" onchange="filterGames()">
+        <option value="all">Tous</option>
+        <option value="rpg">RPG</option>
+        <option value="fps">FPS</option>
+        <option value="racing">Course</option>
+        <option value="adventure">Aventure</option>
+      </select>
+    </section>
+    <section id="games-list">
+      <!-- Les jeux seront ajoutés ici par JavaScript -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Les Jeux Vidéo avec les Trophées/Succès les Plus Durs. Tous droits réservés.</p>
+    <p><a href="#privacy-policy">Politique de confidentialité</a></p>
+  </footer>
+  <script src="../dossier_1/script.js"></script>
+</body>
+</html>
+
